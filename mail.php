@@ -11,8 +11,7 @@ $recipient = "omkar9606@gmail.com";
 
 mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
-echo"massage sent";
-/**
+echo'
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +34,7 @@ echo"massage sent";
 
 
 
-';**/
+';
 
 
 ?>
